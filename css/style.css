@@ -1,0 +1,292 @@
+body {
+	background: #282828;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	height: 81px;
+	background: url(../img/fon.png) 0 0 repeat-x;
+	position: relative;
+	z-index: 1;
+}
+
+.logo {
+	float: left;
+	padding-top: 12px;
+	margin-left: 117px;
+}
+
+.menu {
+	float: right;
+	margin-right: 100px;
+}
+
+.menu li {
+	float: left;
+	padding-left: 25px;
+}
+.menu li a {
+	font-size: 18px;
+	color: #fff;
+	font-family: arial;
+	text-decoration: none;
+	line-height: 68px;
+}
+.banner {
+	height: 366px;
+	background: url(../img/fon_banner.png);
+	margin-top: -15px;
+	position: relative;
+}
+
+.banner img {
+	float: left;
+	margin-left: 118px;
+}
+
+.banner_text {
+	float: right;
+	color: #fff;
+	width: 380px;
+	margin-top: 61px;
+	margin-right: 110px;
+}
+
+.banner_text h1 {
+	font-size: 26px;
+	font-family: droidsans, arial;
+	font-weight: bold;
+	text-shadow: 1px 4px 0px #000;
+}
+
+.banner_text p {
+	padding-top: 25px;
+	font-size: 16px;
+	font-family: arial;
+	line-height: 1.5;
+}
+
+.banner_text input {
+	height: 54px;
+	width: 188px;
+	margin-top: 73px;
+	margin-left: 76px;
+	background-color: #549fcc;
+	background: linear-gradient(to top, #4693c3, #5ea8d3);
+	border: none;
+	font-size: 28px;
+	font-family: droidsans, arial;
+	color: #fff;
+}
+
+.white_cont {
+	background-color: #fff;
+	min-height: 630px;
+}
+
+.good {
+	width: 317.6px;
+	padding-top: 54px;
+}
+.good h1 {
+	height: 38px;
+	font-family: arial;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.good p {
+	font-size: 14px;
+	font-family: arial;
+	line-height: 1.5;
+	padding-right: 50px; 
+	overflow: hidden;
+}
+
+.good .more {
+	display: block;
+	width: 85px;
+	height: 35px;
+	margin-top: 26px;
+	text-decoration: none;
+	color: #000;
+	font-size: 16px;
+	font-family: myraidpro, arial;
+	text-align: center;
+	line-height: 35px;
+	background: linear-gradient(to top, #e5e5e5, #f9f9f9);
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.33);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.33);
+    box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.33);
+}
+
+.good_1 {
+	float: left;
+	padding-left: 120px;
+}
+
+.good_1 h1 {
+	background: url(../img/box_1.png) no-repeat;
+	padding-left: 60px;
+	line-height: 38px;
+}
+
+.good_2 {
+	margin-left: 450px;
+}
+
+.good_2 h1 {
+	background: url(../img/box_2.png) no-repeat;
+	padding-left: 45px;
+	line-height: 38px;
+}
+
+.good_2 .more {
+	margin-top: 48px;
+}
+
+.good_3 {
+	float: right;
+	padding-right: 100px;
+}
+
+.good_3 h1 {
+	background: url(../img/box_3.png) no-repeat;
+	padding-left: 35px;
+	line-height: 38px;
+}
+
+.deograms {
+	margin-top: 74px;
+}
+
+.deogram {
+	width: 317.6px;
+}
+
+.deogram h1 {
+	height: 15px;
+	margin-top: 17px;
+	margin-bottom: 13px;
+	font-size: 18px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.deog_img {
+	height: 117px;
+	width: 255px;
+	border: 6px solid #e2e0e0;
+}
+
+.deogram p {
+	font-size: 14px;
+	font-family: arial;
+	line-height: 1.5;
+	padding-right: 50px; 
+	overflow: hidden;
+}
+
+.deogram_1 {
+	float: left;
+	padding-left: 120px;
+}
+
+.deogram_2 {
+	margin-left: 450px;
+}
+
+.deogram_3 {
+	float: right;
+	padding-right: 100px;
+}
+
+.footer {
+	clear: both;
+	min-height: 400px;
+	background: url(../img/fon_footer.png) 0 0 repeat-x;
+}
+
+.footer_text {
+	width: 270px;
+	padding-top: 25px;
+}
+
+.footer_text h1 {
+	height: 39px;
+	font-family: arial;
+	font-size: 24px;
+	color: #fff;
+	background: url(../img/footer_border.png) 0 0 repeat-x;
+	background-position: bottom;
+}
+
+.footer_text p {
+	margin-top: 23px;
+	margin-bottom: 25px;
+	color: #fff;
+	font-size: 14px;
+	font-family: arial;
+	line-height: 1.5;
+}
+
+.footer_text input {
+	padding: 7px;
+	background: linear-gradient(to top, #155bb0, #1c87cf); 
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	font-family: arial;
+	text-align: 39px;
+	border-radius: 4px;
+}
+
+.footer_1 {
+	float: left;
+	padding-left: 120px;
+}
+
+.footer_2 {
+	margin-left: 450px;
+}
+
+.footer_2 ul {
+	margin-top: 18px;
+}
+
+.footer_2 ul li {
+	background: url(../img/errow.png) 0 9px no-repeat;
+	padding-bottom: 6px;
+	padding-left: 25px;
+	color: #fff;
+	font-size: 16px;
+	font-family: arial;
+	line-height: 1.8;
+}
+
+.footer_3 {
+	float: right;
+	padding-right: 150px;
+}
+
+.footer_3 input {
+	margin-top: 25px;
+}
+
+.copirait {
+	clear: both;
+	margin-top: 62px;
+	height: 37px;
+	background: url(../img/fon_copi.png) 0 0 repeat-x;
+	margin-bottom: 12px;
+	color: #fff;
+	font-size: 12px;
+	font-family: arial;
+	line-height: 37px;
+	padding-left: 120px;
+}
